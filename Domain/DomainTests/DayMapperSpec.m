@@ -17,27 +17,12 @@ SpecBegin(DayMapper)
 
 describe(@"DayMapper", ^{
     
-    beforeAll(^{
-
-    });
-    
-    beforeEach(^{
-
-    });
-    
     it(@"should not map day object without data", ^{
         DayMapper *mapper = [[DayMapper alloc] initWithData:nil];
         Day *day = [mapper build];
         expect(day).to.beNil();
     });  
-    
-    afterEach(^{
 
-    });
-    
-    afterAll(^{
-
-    });
 });
 
 SpecEnd
