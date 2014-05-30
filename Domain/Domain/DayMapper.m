@@ -35,7 +35,8 @@
     }
     
     Day *day = [[Day alloc] init];
-    
+    day.title = [self.dicData objectForKey:@"title"];
+    day.summary = [self.dicData objectForKey:@"summary"];
     return day;
 }
 

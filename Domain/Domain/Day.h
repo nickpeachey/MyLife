@@ -10,4 +10,7 @@
 
 @interface Day : NSObject
 
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *summary;
+
 @end
