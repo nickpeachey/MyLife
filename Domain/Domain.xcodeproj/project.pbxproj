@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E342A1B1938930E00C3C7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E342A1A1938930E00C3C7DE /* Foundation.framework */; };
-		0E342A201938930E00C3C7DE /* Domain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E342A1F1938930E00C3C7DE /* Domain.h */; };
-		0E342A221938930E00C3C7DE /* Domain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E342A211938930E00C3C7DE /* Domain.m */; };
 		0E342A291938930F00C3C7DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E342A281938930F00C3C7DE /* XCTest.framework */; };
 		0E342A2A1938930F00C3C7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E342A1A1938930E00C3C7DE /* Foundation.framework */; };
 		0E342A2C1938930F00C3C7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E342A2B1938930F00C3C7DE /* UIKit.framework */; };
@@ -39,7 +37,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0E342A201938930E00C3C7DE /* Domain.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +47,6 @@
 		0E342A171938930E00C3C7DE /* libDomain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E342A1A1938930E00C3C7DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E342A1E1938930E00C3C7DE /* Domain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Domain-Prefix.pch"; sourceTree = "<group>"; };
-		0E342A1F1938930E00C3C7DE /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
-		0E342A211938930E00C3C7DE /* Domain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Domain.m; sourceTree = "<group>"; };
 		0E342A271938930F00C3C7DE /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E342A281938930F00C3C7DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0E342A2B1938930F00C3C7DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -126,8 +121,6 @@
 			children = (
 				0E342A871938979D00C3C7DE /* Mappers */,
 				0E342A861938979800C3C7DE /* Objects */,
-				0E342A1F1938930E00C3C7DE /* Domain.h */,
-				0E342A211938930E00C3C7DE /* Domain.m */,
 				0E342A1D1938930E00C3C7DE /* Supporting Files */,
 			);
 			path = Domain;
@@ -312,7 +305,6 @@
 			files = (
 				0E342A921938ACFA00C3C7DE /* DayMapper.m in Sources */,
 				0E342A8A193897B400C3C7DE /* Day.m in Sources */,
-				0E342A221938930E00C3C7DE /* Domain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
